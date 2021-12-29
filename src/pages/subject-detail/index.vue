@@ -1,8 +1,8 @@
 <template>
   <div class="video-page">
-    <div class="title-bar">{{title}}</div>
+    <div class="title-bar">{{$route.query.title}}</div>
     <div class="video-content">
-      <video preload width="70%" height="240" controls  ref="videoDom" >
+      <video preload width="70%" height="420" controls  ref="videoDom" >
         <source :src="videoSrc" type="video/mp4"/>
         <object :data="videoSrc">
           <embed :src="videoSrc" width="320" height="240" />

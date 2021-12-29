@@ -1,6 +1,6 @@
 <template>
   <div class="block">
-      <el-carousel trigger="click" height="450px">
+      <el-carousel trigger="click" height="60vh">
         <el-carousel-item v-for="(item, index) in imgs" :key="index">
           <img class="picture" :src="item.url" alt="">
         </el-carousel-item>
@@ -37,7 +37,11 @@ export default {
 <style scoped>
 /* home */
 .block{
-  height: 100%;
+  height: 80vh;
+}
+.el-carousel{
+  width: 100%;
+  margin: 0 auto;
 }
 .picture{
   width: 100%;
