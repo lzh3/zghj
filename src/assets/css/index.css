@@ -1,0 +1,125 @@
+body{
+    /* height: 100vh; */
+    overflow: auto;
+    /* background: url("../imgs/bg.webp") 100%/cover no-repeat; */
+    background: #efefef;
+}
+.page-wrapper{
+    /* width: 90%; */
+    margin: 0 auto;
+    /* background: #fff; */
+}
+.page-header{
+    background: #333;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent;
+    color: #000;
+}
+
+/* home */
+.home-content{
+    width: 100%;
+    height: calc(100vh - 70px);
+    padding-bottom: 200px;
+    overflow: hidden;
+    /* height: calc(100vh - 40px); */
+    /* height: 400px; */
+    margin-top: 20px;
+}
+.home-content .carousel{
+    width: 100%;
+    height: 100%;
+}
+.home-content .carousel .carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+.home-content .carousel .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.home-content .carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 头部 */
+.nav-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.nav-wrapper .nav-link.active{
+    color: #ccc;
+    /* border-bottom: 2px solid #7952b3; */
+    border-bottom: 2px solid #f4f4f4;
+    border-radius: 0;
+}
+.nav-pills .show>.nav-link{
+    color: #f4f4f4;
+}
+
+
+/* content */
+.page-content{
+    /* height: 100vh; */
+    /* background-color: #fff; */
+}
+.tab-content{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.content ul{
+    padding-left: 0px;
+}
+.content ul li{
+    /* margin-bottom: 15px; */
+}
+
+/* 左侧菜单 */
+.left-menu{
+    width: 380px;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px #bbb;
+}
+.left-menu .left-menu-title{
+    font-size: 20px;
+    font-weight: 550;
+}
+.left-menu .btn-title-one{
+    font-size: 16px;
+}
+/* .left-menu .btn-title-two{
+    font-size: 14px;
+} */
+
+.content .btn-title-two{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.content .btn-title-two:hover{
+    color: #007bff;
+}
+.content .video-page{
+    position: absolute;
+    left: 420px;
+    top: 60px;
+    bottom: 10px;
+    height: auto;
+}
+
+
+
+

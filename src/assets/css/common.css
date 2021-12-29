@@ -1,0 +1,14 @@
+.title-bar{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    border-left: 3px solid #7952b3;
+    cursor: pointer;
+}
+.title-bar:before{
+
+}
